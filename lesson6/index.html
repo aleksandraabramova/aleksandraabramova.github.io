@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Жизнь разработчика Коли</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image" href="https://code.s3.yandex.net/web-code/playlist-favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Блог о жизни разработчика Коли</h1>
+    <nav>
+      <a href="">О музыке</a>
+      <a href="">О еде</a>
+      <a href="">О понятиях в HTML</a>
+      <a href="">О тегах</a>
+      <a href="">Новости</a>
+    </nav>
+    <nav>
+      <a href="">О музыке</a>
+      <a href="">О еде</a>
+      <a href="">О понятиях в HTML</a>
+      <a href="">О тегах</a>
+      <a href="">Новости</a>
+    </nav>
+  </header>
+  <div>
+    <main>
+      <section>
+        <h2>Невозможно жить без музыки</h2>
+        <p><a href="https://www.noisli.com" target="_blank">Плейлист</a> для расслабленного занятия кодингом.</p>
+        <p>Один раз послушал — семь раз покодил.</p>
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a4faf922728159.56317655e6e19.jpg"
+          alt="картинка на обложке" width="230">
+        <h2>Что я люблю слушать - &dollar;</h2>
+        <!-- это точно список, но как сделать чтобы не писать цифры вручную? Список - это list, а порядок order-->
+        <ol reversed>
+          <li>Земфира</li>
+          <li>ДДТ</li>
+          <li>Классическая музыка</li>
+          <li>Звуки природы</li>
+        </ol>
+      </section>
+      <section>
+        <h2>А еще самые лучшие вкусняшки</h2>
+        <!-- вроде список ненумерованный, порядок неважен. Говорили что это unordered list-->
+        <ul>
+          <li>Мороженое</li>
+          <li>Пицца</li>
+          <li>Кола</li>
+          <li>Чебурек</li>
+        </ul>
+      </section>
+      <section class="important">
+        <h2>Чтобы бы разработчиком, нужно многое знать и слова на английском</h2>
+        <!-- здесь помогут теги списка определений dl -->
+        <dl>
+          <dt class="definition">Тег p</dt>
+          <dd>Этот тег нужен что бы на странице отобразить абзац текста, по-английски paragraph.</dd>
+
+          <dt class="definition">Тег a</dt>
+          <dd>Если нужно вставить ссылку, то необходимо использовать этот тег.
+            В атрибуте href написать путь, т.е. куда должен произойти переход при клике.
+          </dd>
+
+          <dt class="definition">Тег h</dt>
+          <dd>Это заголовок. Всего их бывает 6 видов, они отличаются размерами:
+            <pre>
+              &lt;h1&gt;Заголовок первого уровня&lt;/h1&gt;
+              &lt;h2&gt;Заголовок 2 уровня&lt;/h2&gt;
+              ... 
+              &lt;h6&gt;Заголовок 6 уровня&lt;/h6&gt;
+            </pre>
+          </dd>
+        </dl>
+
+        <pre>
+            <code>
+            if (a > b) {              // Условие на языке javascript
+              console.log('Hello!');  // log в консоли
+            }
+            </code>
+          </pre>
+      </section>
+      <section>
+        <h2>Полезные теги</h2>
+        Например, можно написать 6 в степени 2 = 36 и показать это красиво, с помощью тега pre.
+        <pre>
+          6<sup>2</sup>=36
+          H<sub>2</sub>O
+          </pre>
+
+        <p>
+          <q cite="https://citatnica.ru/citaty/tsitaty-pro-druzhbu-so-smyslom-260-tsitat">
+            Мне не нужно друга, который, во всем со мной соглашаясь,
+            меняет со мною взгляды, кивая головой, ибо тень то же делает лучше.</q>
+          <cite>Плутарх</cite>
+        </p>
+        <blockquote>
+          <p>Мне не нужно друга, который, во всем со мной соглашаясь,
+            меняет со мною взгляды, кивая головой, ибо тень то же делает лучше.
+          </p>
+          <cite>Плутарх</cite>
+        </blockquote>
+      </section>
+      <section>
+        <h2>Просто так, изучаю теги</h2>
+        <p>Сегодня <i>утром</i> я проснулась <time datetime="2022-09-28T07:00">в 7:00</time></p>
+        <p>В <time datetime="2015-06-01">июне 2015</time> года я отдыхала в Италии</p>
+        <ol>
+          <li><del datetime="2022-09-29T19:00">Помыть посуду</del></li>
+          <li>Помыть пол</li>
+          <li>Приготовить суп</li>
+          <li><ins datetime="2022-10-29T20:00">Погулять с собакой</ins></li>
+        </ol>
+      </section>
+      <section>
+        <h2>Новости</h2>
+        <h3>Новость1</h3>
+        <p>lksdjfslfj;asdjfaskdf </p>
+
+        <h3>Новость 2</h3>
+        <p>sldfsldk msldkfsldkfs</p>
+      </section>
+    </main>
+    <aside>
+      Здесь может блок с рекламой
+    </aside>
+  </div>
+  <footer>
+    Пишите мне письма на почту <a href="mailto:kolya@ya.ru">kolya@ya.ru</a>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+h1 {
+    font-size: 24px; 
+    color: blue; 
+    font-style: italic;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+  .definition {
+    font-weight: 900;
+    color: blue;
+    font-size: 24px;
+  }
+  ul {
+    list-style-type: '😇';
+  }
+
+blockquote {
+  background-color: aqua;
+  border: 2px dotted red;
+  border-radius: 5px;
+}
+
+time {
+  font-weight: 600;
+}
+
+main {
+  background-color: aqua;
+}
+footer {
+  background-color: blueviolet;
+}
+header {
+  background-color: brown;
+}
+section, nav {
+  background-color: aquamarine;
+}
+.important {
+  background-color: brown;
+}
+
+nav {
+  display: inline-block;
+  width: 40%;
+}
+
+main, aside {
+  display: inline-block;
+}
+
+main {
+  width: 80%;
+}
+
+article {
+  display: inline-block;
+  border: 2px solid red;
+}
+
