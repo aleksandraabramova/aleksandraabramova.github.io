@@ -6,6 +6,15 @@ header, main, footer {
 header {
     height: 90px;
 }
+.main-menu {
+    display: inline-block;
+    width: 80%;
+    text-align: right;
+}
+.main-menu-item {
+    display: inline;
+    margin: 20px;
+}
 main {
     padding: 0 100px 60px;
 }
@@ -19,6 +28,7 @@ footer {
     margin: 20px;
     width: 40%;
     vertical-align: middle;
+    border-radius: 20px;
 }
 .card-img {
     width: 80%;
@@ -27,12 +37,15 @@ footer {
     display: block;
     margin: auto;
 }
-.card-link {
-    border: 2px dotted rgb(41, 10, 103);
-    padding: 20px;
-    margin-top: 40px;
+
+.card-button {
+    border: 1px solid #32394d;
+    padding: 10px 20px;
     display: block;
-    width: 60px;
-    background-color: rgb(196, 241, 241);
-    border-radius: 20%;
+    width: 50px;
+    margin: auto;
+    text-decoration: none;
+    color: blue;
+    border-radius: 20px;
+    background-color: antiquewhite;
 }
